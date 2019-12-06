@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="DataStructures" Database="" Version="10000">
+  <VirtualDirectory Name="DoubleLinkedLists">
+    <Project Name="doubleLinkedLists" Path="doubleLinkedLists/doubleLinkedLists.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="SingleLinkedLists">
+    <Project Name="singleLinkedList" Path="singleLinkedList/singleLinkedList.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="stackImplementation">
+    <Project Name="stackImplementation" Path="stackImplementation/stackImplementation.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Trees">
+    <Project Name="binaryTrees" Path="binaryTrees/binaryTrees.project" Active="Yes"/>
+  </VirtualDirectory>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="binaryTrees" ConfigName="Debug"/>
+      <Project Name="doubleLinkedLists" ConfigName="Debug"/>
+      <Project Name="singleLinkedList" ConfigName="Debug"/>
+      <Project Name="stackImplementation" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="doubleLinkedLists" ConfigName="Debug"/>
+      <Project Name="singleLinkedList" ConfigName="Debug"/>
+      <Project Name="stackImplementation" ConfigName="Release"/>
+      <Project Name="binaryTrees" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
